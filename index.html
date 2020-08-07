@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Suraj Mamgai Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/live-resume.css">
+</head>
+
+<body>
+    <header>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto" onclick="Copy();"><img src="assets/images/share.svg" alt="share" class="btn-img">
+            SHARE</button>
+            <script>
+                function Copy() 
+    {
+        var Url = document.createElement("textarea");
+        Url.innerHTML = window.location.href;
+        Copied = Url.createTextRange();
+        Copied.execCommand("Copy");
+    }
+            </script>
+        <nav class="collapsible-nav" id="collapsible-nav">
+            <a href="index.html" class="nav-link active">HOME</a>
+            <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+            <a href="contact.html" class="nav-link">CONTACT</a>
+        </nav>
+        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
+    </header>
+    <div class="content-wrapper">
+        <aside>
+            <div class="profile-img-wrapper">
+                <img src="assets/images/Profile.png" alt="profile">
+            </div>
+            <h1 class="profile-name">Suraj Mamgai</h1>
+            <div class="text-center">
+                <span class="badge badge-white badge-pill profile-designation">Front-End Web Developer</span>
+            </div>
+            <nav class="social-links">
+                <a href="#!" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-behance"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-dribbble"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-github"></i></a>
+            </nav>
+            <div class="widget">
+                <h5 class="widget-title">personal information</h5>
+                <div class="widget-content">
+                    <p>BIRTHDAY : 21 February 2002</p>
+                    <p>WEBSITE : surajmamgai.github.io</p>
+                    <p>PHONE : +91 8851861179</p>
+                    <p>MAIL : notify.suraj@gmail.com</p>
+                    <p>Location : Delhi, India</p>
+                    <button class="btn btn-download-cv btn-primary rounded-pill"> <a href="assets/images/Resume-Suraj-Mamgai.pdf" style="text-decoration:none; color: white"><img src="assets/images/download.svg" alt="download"
+                        class="btn-img"> GET RESUME </button></a>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">LANGUAGES</h5>
+                        <p>English : fluent</p>
+                        <p>Hindi : native</p>
+                    </div>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">INTERESTS</h5>
+                        <p>Sci-Fi Movies</p>
+                        <p>Web Series</p>
+                        <p>Reading Books</p>
+                        <p>Chess</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="intro-section">
+                <h2 class="section-title">Hello, Suraj Mamgai!</h2>
+                <p>I'm Creative Web Developer from Delhi, working on turning complex problems
+                into simple, beautiful and intuitive designs. My job is to build your website
+                so that it is functional and user-friendly but at the same time attractive.
+                Moreover, I add personal touch to your product and make sure that is eye-catching
+                and easy to use. My aim is to bring across your message and identity in the most
+                creative way. I created web design for few rising startup companies but I am 
+                still learning new things to boost up my skill of web development.
+                </p>
+                <a href="contact.html" class="btn btn-primary btn-hire-me">HIRE ME</a>
+            </section>
+            <section class="resume-section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="section-title">EDUCATION</h2>
+                        <ul class="time-line">
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">Aug 2017 - Present</span>
+                                <h6 class="time-line-item-title">Diploma in Computer Science and Engineering</h6>
+                                <p class="time-line-item-subtitle">Ambedkar Institute of Technology</p>
+                                <p class="time-line-item-content">Scored an aggregate of 86% and also participated as well
+                                                                 as won many other events organized within the campus.<br>
+                                                                 Stood 1st in the campus during academic year 2017-2018. <br>
+                                                                 Secured 2nd Position at Adzap in 2018 & 2019.<br>
+                                                                 Secured 1st Position in Stand Up Comedy Competition. 
+                                </p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">JUl 2019 - Mar 2020</span>
+                                <h6 class="time-line-item-title">SMART- Vocational Course</h6>
+                                <p class="time-line-item-subtitle">Tech Mahindra Foundation</p>
+                                <p class="time-line-item-content">Learned a lot about advanced IT as well as 
+                                                                developed my soft skills through the continuous
+                                                                 motivation and efforts of my mentors.
+                                </p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">Apr 2015 - Apr 2017</span>
+                                <h6 class="time-line-item-title">Secondary Education (Class Xth)</h6>
+                                <p class="time-line-item-subtitle">Oscar Public School</p>
+                                <p class="time-line-item-content">Scored 10 CGPA in the board examinations and also
+                                                                 represented my school for debate at zonal level.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="section-title">Experience</h2>
+                        <ul class="time-line">
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">Jul 2020 - Present</span>
+                                <h6 class="time-line-item-title">Campus Ninja</h6>
+                                <p class="time-line-item-subtitle">Coding Ninjas India</p>
+                                <p class="time-line-item-content">
+                                    Working as a Campus Ninja and promoting the brand in my college Campus.
+                                </p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">Jul 2020 - Aug 2020</span>
+                                <h6 class="time-line-item-title">Campus Ambassador</h6>
+                                <p class="time-line-item-subtitle">Alpine Technologies</p>
+                                <p class="time-line-item-content">
+                                    Promoted a startup as a campus ambassador to extend its reach. 
+                                </p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">Oct 2019 - Apr 2020</span>
+                                <h6 class="time-line-item-title">Front-End Web Developer</h6>
+                                <p class="time-line-item-subtitle">Monktree Education</p>
+                                <p class="time-line-item-content">Worked in the development of the official website of Monktree Education.
+                                </p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">Dec 2019 - Mar 2020</span>
+                                <h6 class="time-line-item-title">Software Developer Intern</h6>
+                                <p class="time-line-item-subtitle">Defence Research and Develoment Organization</p>
+                                <p class="time-line-item-content">Got to know about how the things are done in corporate culture.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="services-section">
+                <h2 class="section-title">TECHNICAL SKILLS</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                <div class="progressBar">
+                    <h4>HTML</h4>
+                    <div class="progressBarContainer">
+                      <div class="progressBarValue value-90"></div>
+                    </div>
+                  </div>
+                  <div class="progressBar">
+                    <h4>CSS</h4>
+                    <div class="progressBarContainer">
+                      <div class="progressBarValue value-80"></div>
+                    </div>
+                  </div>
+                  <div class="progressBar">
+                    <h4>JavaScript</h4>
+                    <div class="progressBarContainer">
+                      <div class="progressBarValue value-70"></div>
+                    </div>
+                  </div>
+                  <div class="progressBar">
+                    <h4>SQL</h4>
+                    <div class="progressBarContainer">
+                      <div class="progressBarValue value-65"></div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-lg-6">
+                  <div class="progressBar">
+                    <h4>Java</h4>
+                    <div class="progressBarContainer">
+                      <div class="progressBarValue value-75"></div>
+                    </div>
+                  </div>
+                  <div class="progressBar">
+                    <h4>C++</h4>
+                    <div class="progressBarContainer">
+                      <div class="progressBarValue value-70"></div>
+                    </div>
+                  </div>
+                  <div class="progressBar">
+                    <h4>C Language</h4>
+                    <div class="progressBarContainer">
+                      <div class="progressBarValue value-65"></div>
+                    </div>
+                  </div>
+                  <div class="progressBar">
+                    <h4>MS Office</h4>
+                    <div class="progressBarContainer">
+                      <div class="progressBarValue value-85"></div>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                 
+        </section>
+          <section>    
+            <h2 class="section-title">OTHER SKILLS</h2>    
+               <div class="row">
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/001-target.svg" alt="target">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Leadership Skills</h5>
+
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/004-smartphone.svg" alt="smartphone">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Communication Skills</h5>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/003-idea.svg" alt="bulb">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Prolem Solving Skills</h5>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/002-development.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Management Skills</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/live-resume.js"></script>
+</body>
+
+</html>
