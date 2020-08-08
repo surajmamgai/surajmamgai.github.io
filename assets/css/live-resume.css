@@ -7866,8 +7866,7 @@ main {
       align-items: center; }
       @media (max-width: 1500px) {
         main .portfolio-wrapper .portfolio-item {
-          width: calc(50% - 7px);
-          filter: drop-shadow(0.5px 0.5px 3px #aaa);} }
+          width: calc(50% - 7px);} }
       @media (max-width: 991px) {
         main .portfolio-wrapper .portfolio-item {
           width: 100%; } }
@@ -7879,7 +7878,8 @@ main {
           width: 100%; } }
       main .portfolio-wrapper .portfolio-item-img {
         max-height: 300px;
-        max-width: 100%; }
+        max-width: 100%;
+        box-shadow: 2px 2px 2px 2px aqua; }
       main .portfolio-wrapper .portfolio-item-details {
         padding: 22px 26px;
         background-color: rgba(0, 0, 0, 0.42);
@@ -8008,7 +8008,8 @@ main {
 .hover-box {
   position: relative;
   perspective: 800px;
-  overflow: hidden; }
+  overflow: hidden; 
+  filter: drop-shadow(0.5px 0.5px 3px #aaa);}
   .hover-box .overlay {
     position: absolute;
     left: 0;
